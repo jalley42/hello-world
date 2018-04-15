@@ -1,0 +1,455 @@
+<nodehandler class="tabber_handler" icon="d20" module="containers" name="Wyvern">
+  <!-- Updated by gawaine42, 2/19/06  -->
+  <nodehandler class="form_handler" icon="form" module="forms" name="Details">
+    <form height="600" width="400"/>
+    <nodehandler class="textctrl_handler" icon="note" module="forms" name="Name">
+      <text multiline="0" send_button="0">Wyvern</text>
+    </nodehandler>
+    <nodehandler class="textctrl_handler" icon="note" module="forms" name="Race">
+      <text multiline="0" send_button="0">Wyvern</text>
+    </nodehandler>
+    <nodehandler class="textctrl_handler" icon="note" module="forms" name="Classes">
+      <text multiline="0" send_button="0">Dragon7</text>
+    </nodehandler>
+    <nodehandler class="textctrl_handler" icon="note" module="forms" name="Speed">
+      <text multiline="0" send_button="0">Walk 20 ft., Fly 60 ft.</text>
+    </nodehandler>
+    <nodehandler class="textctrl_handler" icon="note" module="forms" name="AC: Total / Touch / Flat Footed">
+      <text multiline="0" send_button="0">19 / 10 / 18</text>
+    </nodehandler>
+    <nodehandler class="textctrl_handler" icon="note" module="forms" name="Face / Reach">
+      <text multiline="0" send_button="0">10 ft./10 ft.</text>
+    </nodehandler>
+    <nodehandler class="textctrl_handler" icon="note" module="forms" name="XP / For Next">
+      <text multiline="0" send_button="0">0 / 51000</text>
+    </nodehandler>
+    <nodehandler class="rpg_grid_handler" icon="grid" module="rpg_grid" name="Abilities">
+      <grid autosize="1" border="1">
+        <row>
+          <cell>STR</cell>
+          <cell>19</cell>
+          <cell>+4</cell>
+        </row>
+        <row>
+          <cell>DEX</cell>
+          <cell>12</cell>
+          <cell>+1</cell>
+        </row>
+        <row>
+          <cell>CON</cell>
+          <cell>18</cell>
+          <cell>+4</cell>
+        </row>
+        <row>
+          <cell>INT</cell>
+          <cell>7</cell>
+          <cell>-2</cell>
+        </row>
+        <row>
+          <cell>WIS</cell>
+          <cell>12</cell>
+          <cell>+1</cell>
+        </row>
+        <row>
+          <cell>CHA</cell>
+          <cell>9</cell>
+          <cell>-1</cell>
+        </row>
+      </grid>
+      <macros>
+        <macro name=""/>
+      </macros>
+    </nodehandler>
+    <nodehandler class="rpg_grid_handler" icon="grid" module="rpg_grid" name="Skills" version="1.0">
+      <grid autosize="1" border="0">
+        <row><cell>Skill</cell><cell>Total</cell><cell>Rnk</cell><cell>Stat</cell><cell>Msc</cell></row>
+        <row><cell>Acrobatics</cell><cell>1</cell><cell>0.0</cell><cell>1</cell><cell>0</cell></row>        <row><cell>Appraise</cell><cell>-2</cell><cell>0.0</cell><cell>-2</cell><cell>0</cell></row>        <row><cell>Bluff</cell><cell>-1</cell><cell>0.0</cell><cell>-1</cell><cell>0</cell></row>        <row><cell>Climb</cell><cell>4</cell><cell>0.0</cell><cell>4</cell><cell>0</cell></row>        <row><cell>Craft (Untrained)</cell><cell>-2</cell><cell>0.0</cell><cell>-2</cell><cell>0</cell></row>        <row><cell>Diplomacy</cell><cell>-1</cell><cell>0.0</cell><cell>-1</cell><cell>0</cell></row>        <row><cell>Disguise</cell><cell>-1</cell><cell>0.0</cell><cell>-1</cell><cell>0</cell></row>        <row><cell>Escape Artist</cell><cell>1</cell><cell>0.0</cell><cell>1</cell><cell>0</cell></row>        <row><cell>Fly</cell><cell>5</cell><cell>7.0</cell><cell>1</cell><cell>-3</cell></row>        <row><cell>Heal</cell><cell>1</cell><cell>0.0</cell><cell>1</cell><cell>0</cell></row>        <row><cell>Intimidate</cell><cell>-1</cell><cell>0.0</cell><cell>-1</cell><cell>0</cell></row>        <row><cell>Perception</cell><cell>18</cell><cell>7.0</cell><cell>1</cell><cell>10</cell></row>        <row><cell>Perform (Untrained)</cell><cell>-1</cell><cell>0.0</cell><cell>-1</cell><cell>0</cell></row>        <row><cell>Ride</cell><cell>1</cell><cell>0.0</cell><cell>1</cell><cell>0</cell></row>        <row><cell>Sense Motive</cell><cell>11</cell><cell>7.0</cell><cell>1</cell><cell>3</cell></row>        <row><cell>Stealth</cell><cell>7</cell><cell>7.0</cell><cell>1</cell><cell>-1</cell></row>        <row><cell>Survival</cell><cell>1</cell><cell>0.0</cell><cell>1</cell><cell>0</cell></row>        <row><cell>Swim</cell><cell>4</cell><cell>0.0</cell><cell>4</cell><cell>0</cell></row>
+      </grid>
+      <macros>
+        <macro name=""/>
+      </macros>
+    </nodehandler>
+  </nodehandler>
+    
+  <nodehandler class="form_handler" icon="form" module="forms" name="Special Abilities">
+    <form height="600" width="400"/>
+    <nodehandler class="textctrl_handler" icon="note" module="forms" name="Feats" version="1.0">
+      <text multiline="1" send_button="0">
+Flyby Attack
+  This creature can make an attack before and after it moves while flying.
+Improved Initiative
+  Your quick reflexes allow you to react quickly to danger.
+Iron Will
+  You are more resistant to mental effects.
+Skill Focus (Perception)
+
+
+</text>
+    </nodehandler>
+    <nodehandler class="textctrl_handler" icon="note" module="forms" name="Special Abilities">
+      <text multiline="1" send_button="0">
+
+      </text>
+    </nodehandler>
+    <nodehandler class="textctrl_handler" icon="note" module="forms" name="Templates">
+      <text multiline="0" send_button="0"></text>
+    </nodehandler>
+  </nodehandler>
+  
+  <nodehandler class="form_handler" icon="form" module="forms" name="Combat">
+    <form height="600" width="400"/>
+    <nodehandler class="textctrl_handler" icon="d20" module="forms" name="Basic Attack Bonus">
+      <text multiline="0" send_button="1">+7</text>
+    </nodehandler>
+    <nodehandler class="textctrl_handler" icon="d20" module="forms" name="Temporary To Hit Bonus">
+      <text multiline="0" send_button="1">0</text>
+    </nodehandler>
+    <nodehandler class="textctrl_handler" icon="d20" module="forms" name="Temporary Damage Bonus">
+      <text multiline="0" send_button="1">0</text>
+    </nodehandler>
+    <nodehandler class="textctrl_handler" icon="d20" module="forms" name="Temporary AC Bonus">
+      <text multiline="0" send_button="1">0</text>
+    </nodehandler>
+    <nodehandler class="textctrl_handler" icon="d20" module="forms" name="Initiative">
+      <text multiline="0" send_button="1">[1d20+5]</text>
+    </nodehandler>
+    <nodehandler class="textctrl_handler" icon="note" module="forms" name="Current HP (out of 99)">
+      <text multiline="0" send_button="0"></text>
+    </nodehandler>
+    <nodehandler class="listbox_handler" icon="gear" module="forms" name="Saving Throws">
+      <list send_button="1" type="0">
+        <option selected="0" value="0">Fortitude [+9+1d20]</option>
+        <option selected="0" value="0">Reflex [+6+1d20]</option>
+        <option selected="1" value="0">Will [+8+1d20]</option>
+      </list>
+    </nodehandler>    
+    <nodehandler class="listbox_handler" icon="gear" module="forms" name="Abilities">
+      <list send_button="1" type="0">
+        <option selected="0" value="0">STR [1d20+4]</option>
+        <option selected="0" value="0">DEX [1d20+1]</option>
+        <option selected="0" value="0">CON [1d20+4]</option>
+        <option selected="0" value="0">INT [1d20-2]</option>
+        <option selected="0" value="0">WIS [1d20+1]</option>
+        <option selected="0" value="0">CHA [1d20-1]</option>
+      </list>
+    </nodehandler>
+    <nodehandler class="listbox_handler" icon="gear" module="forms" name="Skills">
+      <list send_button="1" type="0">
+        <option selected="0" value="0">Acrobatics Check: [1+1d20]</option>        <option selected="0" value="0">Appraise Check: [-2+1d20]</option>        <option selected="0" value="0">Bluff Check: [-1+1d20]</option>        <option selected="0" value="0">Climb Check: [4+1d20]</option>        <option selected="0" value="0">Craft (Untrained) Check: [-2+1d20]</option>        <option selected="0" value="0">Diplomacy Check: [-1+1d20]</option>        <option selected="0" value="0">Disguise Check: [-1+1d20]</option>        <option selected="0" value="0">Escape Artist Check: [1+1d20]</option>        <option selected="0" value="0">Fly Check: [5+1d20]</option>        <option selected="0" value="0">Heal Check: [1+1d20]</option>        <option selected="0" value="0">Intimidate Check: [-1+1d20]</option>        <option selected="0" value="0">Perception Check: [18+1d20]</option>        <option selected="0" value="0">Perform (Untrained) Check: [-1+1d20]</option>        <option selected="0" value="0">Ride Check: [1+1d20]</option>        <option selected="0" value="0">Sense Motive Check: [11+1d20]</option>        <option selected="0" value="0">Stealth Check: [7+1d20]</option>        <option selected="0" value="0">Survival Check: [1+1d20]</option>        <option selected="0" value="0">Swim Check: [4+1d20]</option>
+      </list>
+    </nodehandler>
+ 
+
+    <nodehandler class="tabber_handler" icon="tabber" module="containers" name="Weapons" version="1.0">
+
+       <nodehandler class="tabber_handler" icon="gear" module="containers" name="Bite">
+<!-- not ranged -->
+<nodehandler class="form_handler" icon="form"	module="forms" name="Separated">
+	<nodehandler class="textctrl_handler" icon="d20" module="forms" name="Bite 1/2:">
+      <text multiline="0" send_button="1">  [1d20+10+!@WyvernTemporary To Hit Bonus@!] Damage [1d8+4+!@WyvernTemporary Damage Bonus@!]</text>
+    </nodehandler>
+	<nodehandler class="textctrl_handler" icon="d20" module="forms" name="Bite 2/2:">
+      <text multiline="0" send_button="1">  [1d20+10+!@WyvernTemporary To Hit Bonus@!] Damage [1d8+4+!@WyvernTemporary Damage Bonus@!]</text>
+    </nodehandler>
+</nodehandler>
+		<nodehandler class="listbox_handler" icon="gear" module="forms" name="As Equipped (Primary)">
+           <list send_button="3" type="1">
+             <option selected="1" value="0">Bite 1/2: [1d20+10+!@WyvernTemporary To Hit Bonus@!] Damage [1d8+4+!@WyvernTemporary Damage Bonus@!]</option>
+             <option selected="1" value="0">Bite 2/2: [1d20+10+!@WyvernTemporary To Hit Bonus@!] Damage [1d8+4+!@WyvernTemporary Damage Bonus@!]</option>
+            </list>
+          </nodehandler>
+         <nodehandler class="listbox_handler" icon="gear" module="forms" name="One Hand">
+           <list send_button="1" type="1">
+             <option selected="1" value="0">Bite 1/2: [1d20+10+!@WyvernTemporary To Hit Bonus@!] Damage [1d8+4+!@WyvernTemporary Damage Bonus@!]</option>
+             <option selected="1" value="0">Bite 2/2: [1d20+10+!@WyvernTemporary To Hit Bonus@!] Damage [1d8+4+!@WyvernTemporary Damage Bonus@!]</option>
+            </list>
+          </nodehandler>
+         <nodehandler class="listbox_handler" icon="gear" module="forms" name="Off Hand">
+           <list send_button="1" type="1">
+             <option selected="1" value="0">Bite 1/2: [1d20+10 + !@WyvernTemporary To Hit Bonus@!] Damage [1d8+2+!@WyvernTemporary Damage Bonus@!]</option>
+             <option selected="1" value="0">Bite 2/2: [1d20+10 + !@WyvernTemporary To Hit Bonus@!] Damage [1d8+2+!@WyvernTemporary Damage Bonus@!]</option>
+            </list>
+          </nodehandler>        
+         <nodehandler class="listbox_handler" icon="gear" module="forms" name="2 Hand">
+           <list send_button="1" type="1">
+             <option selected="1" value="0">Bite 1/2: [1d20+10+!@WyvernTemporary To Hit Bonus@!] Damage [1d8+6+!@WyvernTemporary Damage Bonus@!]</option>
+             <option selected="1" value="0">Bite 2/2: [1d20+10+!@WyvernTemporary To Hit Bonus@!] Damage [1d8+6+!@WyvernTemporary Damage Bonus@!]</option>
+            </list>
+          </nodehandler>
+         <nodehandler class="listbox_handler" icon="gear" module="forms" name="2WP HOH">
+           <list send_button="1" type="1">
+             <option selected="1" value="0">Bite 1/2: [1d20+10+!@WyvernTemporary To Hit Bonus@!] Damage [1d8+4+!@WyvernTemporary Damage Bonus@!]</option>
+             <option selected="1" value="0">Bite 2/2: [1d20+10+!@WyvernTemporary To Hit Bonus@!] Damage [1d8+4+!@WyvernTemporary Damage Bonus@!]</option>
+            </list>
+          </nodehandler>
+         <nodehandler class="listbox_handler" icon="gear" module="forms" name="2WP LOH">
+           <list send_button="1" type="1">
+             <option selected="1" value="0">Bite 1/2: [1d20+10+!@WyvernTemporary To Hit Bonus@!] Damage [1d8+4+!@WyvernTemporary Damage Bonus@!]</option>
+             <option selected="1" value="0">Bite 2/2: [1d20+10+!@WyvernTemporary To Hit Bonus@!] Damage [1d8+4+!@WyvernTemporary Damage Bonus@!]</option>
+            </list>
+          </nodehandler>
+         <nodehandler class="listbox_handler" icon="gear" module="forms" name="2W 2ndary">
+           <list send_button="1" type="1">
+             <option selected="1" value="0">Bite   Secondary: [1d20+10+!@WyvernTemporary To Hit Bonus@!] Damage [1d8+2+!@WyvernTemporary Damage Bonus@!]</option>
+            </list>
+         </nodehandler>
+     <!-- end not ranged -->
+     </nodehandler>
+       <nodehandler class="tabber_handler" icon="gear" module="containers" name="Crush">
+<!-- not ranged -->
+<nodehandler class="form_handler" icon="form"	module="forms" name="Separated">
+	<nodehandler class="textctrl_handler" icon="d20" module="forms" name="Crush 1/2:">
+      <text multiline="0" send_button="1">  [1d20+10+!@WyvernTemporary To Hit Bonus@!] Damage [2d6+4+!@WyvernTemporary Damage Bonus@!]</text>
+    </nodehandler>
+	<nodehandler class="textctrl_handler" icon="d20" module="forms" name="Crush 2/2:">
+      <text multiline="0" send_button="1">  [1d20+10+!@WyvernTemporary To Hit Bonus@!] Damage [2d6+4+!@WyvernTemporary Damage Bonus@!]</text>
+    </nodehandler>
+</nodehandler>
+		<nodehandler class="listbox_handler" icon="gear" module="forms" name="As Equipped (Primary)">
+           <list send_button="3" type="1">
+             <option selected="1" value="0">Crush 1/2: [1d20+10+!@WyvernTemporary To Hit Bonus@!] Damage [2d6+4+!@WyvernTemporary Damage Bonus@!]</option>
+             <option selected="1" value="0">Crush 2/2: [1d20+10+!@WyvernTemporary To Hit Bonus@!] Damage [2d6+4+!@WyvernTemporary Damage Bonus@!]</option>
+            </list>
+          </nodehandler>
+         <nodehandler class="listbox_handler" icon="gear" module="forms" name="One Hand">
+           <list send_button="1" type="1">
+             <option selected="1" value="0">Crush 1/2: [1d20+10+!@WyvernTemporary To Hit Bonus@!] Damage [2d6+4+!@WyvernTemporary Damage Bonus@!]</option>
+             <option selected="1" value="0">Crush 2/2: [1d20+10+!@WyvernTemporary To Hit Bonus@!] Damage [2d6+4+!@WyvernTemporary Damage Bonus@!]</option>
+            </list>
+          </nodehandler>
+         <nodehandler class="listbox_handler" icon="gear" module="forms" name="Off Hand">
+           <list send_button="1" type="1">
+             <option selected="1" value="0">Crush 1/2: [1d20+10 + !@WyvernTemporary To Hit Bonus@!] Damage [2d6+2+!@WyvernTemporary Damage Bonus@!]</option>
+             <option selected="1" value="0">Crush 2/2: [1d20+10 + !@WyvernTemporary To Hit Bonus@!] Damage [2d6+2+!@WyvernTemporary Damage Bonus@!]</option>
+            </list>
+          </nodehandler>        
+         <nodehandler class="listbox_handler" icon="gear" module="forms" name="2 Hand">
+           <list send_button="1" type="1">
+             <option selected="1" value="0">Crush 1/2: [1d20+10+!@WyvernTemporary To Hit Bonus@!] Damage [2d6+6+!@WyvernTemporary Damage Bonus@!]</option>
+             <option selected="1" value="0">Crush 2/2: [1d20+10+!@WyvernTemporary To Hit Bonus@!] Damage [2d6+6+!@WyvernTemporary Damage Bonus@!]</option>
+            </list>
+          </nodehandler>
+         <nodehandler class="listbox_handler" icon="gear" module="forms" name="2WP HOH">
+           <list send_button="1" type="1">
+             <option selected="1" value="0">Crush 1/2: [1d20+10+!@WyvernTemporary To Hit Bonus@!] Damage [2d6+4+!@WyvernTemporary Damage Bonus@!]</option>
+             <option selected="1" value="0">Crush 2/2: [1d20+10+!@WyvernTemporary To Hit Bonus@!] Damage [2d6+4+!@WyvernTemporary Damage Bonus@!]</option>
+            </list>
+          </nodehandler>
+         <nodehandler class="listbox_handler" icon="gear" module="forms" name="2WP LOH">
+           <list send_button="1" type="1">
+             <option selected="1" value="0">Crush 1/2: [1d20+10+!@WyvernTemporary To Hit Bonus@!] Damage [2d6+4+!@WyvernTemporary Damage Bonus@!]</option>
+             <option selected="1" value="0">Crush 2/2: [1d20+10+!@WyvernTemporary To Hit Bonus@!] Damage [2d6+4+!@WyvernTemporary Damage Bonus@!]</option>
+            </list>
+          </nodehandler>
+         <nodehandler class="listbox_handler" icon="gear" module="forms" name="2W 2ndary">
+           <list send_button="1" type="1">
+             <option selected="1" value="0">Crush   Secondary: [1d20+10+!@WyvernTemporary To Hit Bonus@!] Damage [2d6+2+!@WyvernTemporary Damage Bonus@!]</option>
+            </list>
+         </nodehandler>
+     <!-- end not ranged -->
+     </nodehandler>
+       <nodehandler class="tabber_handler" icon="gear" module="containers" name="Sting">
+<!-- not ranged -->
+<nodehandler class="form_handler" icon="form"	module="forms" name="Separated">
+	<nodehandler class="textctrl_handler" icon="d20" module="forms" name="Sting 1/2:">
+      <text multiline="0" send_button="1">  [1d20+10+!@WyvernTemporary To Hit Bonus@!] Damage [1d6+4+!@WyvernTemporary Damage Bonus@!]</text>
+    </nodehandler>
+	<nodehandler class="textctrl_handler" icon="d20" module="forms" name="Sting 2/2:">
+      <text multiline="0" send_button="1">  [1d20+10+!@WyvernTemporary To Hit Bonus@!] Damage [1d6+4+!@WyvernTemporary Damage Bonus@!]</text>
+    </nodehandler>
+</nodehandler>
+		<nodehandler class="listbox_handler" icon="gear" module="forms" name="As Equipped (Primary)">
+           <list send_button="3" type="1">
+             <option selected="1" value="0">Sting 1/2: [1d20+10+!@WyvernTemporary To Hit Bonus@!] Damage [1d6+4+!@WyvernTemporary Damage Bonus@!]</option>
+             <option selected="1" value="0">Sting 2/2: [1d20+10+!@WyvernTemporary To Hit Bonus@!] Damage [1d6+4+!@WyvernTemporary Damage Bonus@!]</option>
+            </list>
+          </nodehandler>
+         <nodehandler class="listbox_handler" icon="gear" module="forms" name="One Hand">
+           <list send_button="1" type="1">
+             <option selected="1" value="0">Sting 1/2: [1d20+10+!@WyvernTemporary To Hit Bonus@!] Damage [1d6+4+!@WyvernTemporary Damage Bonus@!]</option>
+             <option selected="1" value="0">Sting 2/2: [1d20+10+!@WyvernTemporary To Hit Bonus@!] Damage [1d6+4+!@WyvernTemporary Damage Bonus@!]</option>
+            </list>
+          </nodehandler>
+         <nodehandler class="listbox_handler" icon="gear" module="forms" name="Off Hand">
+           <list send_button="1" type="1">
+             <option selected="1" value="0">Sting 1/2: [1d20+10 + !@WyvernTemporary To Hit Bonus@!] Damage [1d6+2+!@WyvernTemporary Damage Bonus@!]</option>
+             <option selected="1" value="0">Sting 2/2: [1d20+10 + !@WyvernTemporary To Hit Bonus@!] Damage [1d6+2+!@WyvernTemporary Damage Bonus@!]</option>
+            </list>
+          </nodehandler>        
+         <nodehandler class="listbox_handler" icon="gear" module="forms" name="2 Hand">
+           <list send_button="1" type="1">
+             <option selected="1" value="0">Sting 1/2: [1d20+10+!@WyvernTemporary To Hit Bonus@!] Damage [1d6+6+!@WyvernTemporary Damage Bonus@!]</option>
+             <option selected="1" value="0">Sting 2/2: [1d20+10+!@WyvernTemporary To Hit Bonus@!] Damage [1d6+6+!@WyvernTemporary Damage Bonus@!]</option>
+            </list>
+          </nodehandler>
+         <nodehandler class="listbox_handler" icon="gear" module="forms" name="2WP HOH">
+           <list send_button="1" type="1">
+             <option selected="1" value="0">Sting 1/2: [1d20+10+!@WyvernTemporary To Hit Bonus@!] Damage [1d6+4+!@WyvernTemporary Damage Bonus@!]</option>
+             <option selected="1" value="0">Sting 2/2: [1d20+10+!@WyvernTemporary To Hit Bonus@!] Damage [1d6+4+!@WyvernTemporary Damage Bonus@!]</option>
+            </list>
+          </nodehandler>
+         <nodehandler class="listbox_handler" icon="gear" module="forms" name="2WP LOH">
+           <list send_button="1" type="1">
+             <option selected="1" value="0">Sting 1/2: [1d20+10+!@WyvernTemporary To Hit Bonus@!] Damage [1d6+4+!@WyvernTemporary Damage Bonus@!]</option>
+             <option selected="1" value="0">Sting 2/2: [1d20+10+!@WyvernTemporary To Hit Bonus@!] Damage [1d6+4+!@WyvernTemporary Damage Bonus@!]</option>
+            </list>
+          </nodehandler>
+         <nodehandler class="listbox_handler" icon="gear" module="forms" name="2W 2ndary">
+           <list send_button="1" type="1">
+             <option selected="1" value="0">Sting   Secondary: [1d20+10+!@WyvernTemporary To Hit Bonus@!] Damage [1d6+2+!@WyvernTemporary Damage Bonus@!]</option>
+            </list>
+         </nodehandler>
+     <!-- end not ranged -->
+     </nodehandler>
+       <nodehandler class="tabber_handler" icon="gear" module="containers" name="Wing">
+<!-- not ranged -->
+<nodehandler class="form_handler" icon="form"	module="forms" name="Separated">
+	<nodehandler class="textctrl_handler" icon="d20" module="forms" name="Wing 1/3:">
+      <text multiline="0" send_button="1">  [1d20+5+!@WyvernTemporary To Hit Bonus@!] Damage [1d6+2+!@WyvernTemporary Damage Bonus@!]</text>
+    </nodehandler>
+	<nodehandler class="textctrl_handler" icon="d20" module="forms" name="Wing 2/3:">
+      <text multiline="0" send_button="1">  [1d20+5+!@WyvernTemporary To Hit Bonus@!] Damage [1d6+2+!@WyvernTemporary Damage Bonus@!]</text>
+    </nodehandler>
+	<nodehandler class="textctrl_handler" icon="d20" module="forms" name="Wing 3/3:">
+      <text multiline="0" send_button="1">  [1d20+5+!@WyvernTemporary To Hit Bonus@!] Damage [1d6+2+!@WyvernTemporary Damage Bonus@!]</text>
+    </nodehandler>
+</nodehandler>
+		<nodehandler class="listbox_handler" icon="gear" module="forms" name="As Equipped (Primary)">
+           <list send_button="3" type="1">
+             <option selected="1" value="0">Wing 1/3: [1d20+5+!@WyvernTemporary To Hit Bonus@!] Damage [1d6+2+!@WyvernTemporary Damage Bonus@!]</option>
+             <option selected="1" value="0">Wing 2/3: [1d20+5+!@WyvernTemporary To Hit Bonus@!] Damage [1d6+2+!@WyvernTemporary Damage Bonus@!]</option>
+             <option selected="1" value="0">Wing 3/3: [1d20+5+!@WyvernTemporary To Hit Bonus@!] Damage [1d6+2+!@WyvernTemporary Damage Bonus@!]</option>
+            </list>
+          </nodehandler>
+         <nodehandler class="listbox_handler" icon="gear" module="forms" name="One Hand">
+           <list send_button="1" type="1">
+             <option selected="1" value="0">Wing 1/3: [1d20+5+!@WyvernTemporary To Hit Bonus@!] Damage [1d6+2+!@WyvernTemporary Damage Bonus@!]</option>
+             <option selected="1" value="0">Wing 2/3: [1d20+5+!@WyvernTemporary To Hit Bonus@!] Damage [1d6+2+!@WyvernTemporary Damage Bonus@!]</option>
+             <option selected="1" value="0">Wing 3/3: [1d20+5+!@WyvernTemporary To Hit Bonus@!] Damage [1d6+2+!@WyvernTemporary Damage Bonus@!]</option>
+            </list>
+          </nodehandler>
+         <nodehandler class="listbox_handler" icon="gear" module="forms" name="Off Hand">
+           <list send_button="1" type="1">
+             <option selected="1" value="0">Wing 1/3: [1d20+5 + !@WyvernTemporary To Hit Bonus@!] Damage [1d6+!@WyvernTemporary Damage Bonus@!]</option>
+             <option selected="1" value="0">Wing 2/3: [1d20+5 + !@WyvernTemporary To Hit Bonus@!] Damage [1d6+!@WyvernTemporary Damage Bonus@!]</option>
+             <option selected="1" value="0">Wing 3/3: [1d20+5 + !@WyvernTemporary To Hit Bonus@!] Damage [1d6+!@WyvernTemporary Damage Bonus@!]</option>
+            </list>
+          </nodehandler>        
+         <nodehandler class="listbox_handler" icon="gear" module="forms" name="2 Hand">
+           <list send_button="1" type="1">
+             <option selected="1" value="0">Wing 1/3: [1d20+5+!@WyvernTemporary To Hit Bonus@!] Damage [1d6+4+!@WyvernTemporary Damage Bonus@!]</option>
+             <option selected="1" value="0">Wing 2/3: [1d20+5+!@WyvernTemporary To Hit Bonus@!] Damage [1d6+4+!@WyvernTemporary Damage Bonus@!]</option>
+             <option selected="1" value="0">Wing 3/3: [1d20+5+!@WyvernTemporary To Hit Bonus@!] Damage [1d6+4+!@WyvernTemporary Damage Bonus@!]</option>
+            </list>
+          </nodehandler>
+         <nodehandler class="listbox_handler" icon="gear" module="forms" name="2WP HOH">
+           <list send_button="1" type="1">
+             <option selected="1" value="0">Wing 1/3: [1d20+5+!@WyvernTemporary To Hit Bonus@!] Damage [1d6+2+!@WyvernTemporary Damage Bonus@!]</option>
+             <option selected="1" value="0">Wing 2/3: [1d20+5+!@WyvernTemporary To Hit Bonus@!] Damage [1d6+2+!@WyvernTemporary Damage Bonus@!]</option>
+             <option selected="1" value="0">Wing 3/3: [1d20+5+!@WyvernTemporary To Hit Bonus@!] Damage [1d6+2+!@WyvernTemporary Damage Bonus@!]</option>
+            </list>
+          </nodehandler>
+         <nodehandler class="listbox_handler" icon="gear" module="forms" name="2WP LOH">
+           <list send_button="1" type="1">
+             <option selected="1" value="0">Wing 1/3: [1d20+5+!@WyvernTemporary To Hit Bonus@!] Damage [1d6+2+!@WyvernTemporary Damage Bonus@!]</option>
+             <option selected="1" value="0">Wing 2/3: [1d20+5+!@WyvernTemporary To Hit Bonus@!] Damage [1d6+2+!@WyvernTemporary Damage Bonus@!]</option>
+             <option selected="1" value="0">Wing 3/3: [1d20+5+!@WyvernTemporary To Hit Bonus@!] Damage [1d6+2+!@WyvernTemporary Damage Bonus@!]</option>
+            </list>
+          </nodehandler>
+         <nodehandler class="listbox_handler" icon="gear" module="forms" name="2W 2ndary">
+           <list send_button="1" type="1">
+             <option selected="1" value="0">Wing   Secondary: [1d20+5+!@WyvernTemporary To Hit Bonus@!] Damage [1d6+!@WyvernTemporary Damage Bonus@!]</option>
+            </list>
+         </nodehandler>
+     <!-- end not ranged -->
+     </nodehandler>
+
+  </nodehandler>
+<!-- end combat tab -->
+  </nodehandler>
+  
+  
+  <nodehandler class="tabber_handler" icon="tabber" module="containers" name="Weapon Summary" version="1.0">
+    <nodehandler class="textctrl_handler" icon="note" module="forms" name="Bite">
+      <text multiline="1" send_button="0">  
+Name: Bite
+Hands: Primary
+Damage Type: BPS
+Weapon Size: L
+Weapon Critical: 20/x2
+Special Properties: 
+      </text>
+    </nodehandler>
+    <nodehandler class="textctrl_handler" icon="note" module="forms" name="Crush">
+      <text multiline="1" send_button="0">  
+Name: Crush
+Hands: Primary
+Damage Type: B
+Weapon Size: L
+Weapon Critical: 20/x2
+Special Properties: 
+      </text>
+    </nodehandler>
+    <nodehandler class="textctrl_handler" icon="note" module="forms" name="Sting">
+      <text multiline="1" send_button="0">  
+Name: Sting
+Hands: Primary
+Damage Type: P
+Weapon Size: L
+Weapon Critical: 20/x2
+Special Properties: 
+      </text>
+    </nodehandler>
+    <nodehandler class="textctrl_handler" icon="note" module="forms" name="Wing">
+      <text multiline="1" send_button="0">  
+Name: Wing
+Hands: Primary
+Damage Type: B
+Weapon Size: L
+Weapon Critical: 20/x2
+Special Properties: 
+      </text>
+    </nodehandler>
+  </nodehandler>
+  <nodehandler class="textctrl_handler" icon="note" module="forms" name="Equipment" version="1.0">
+    <text multiline="1" send_button="0">Name                                            QTY LBS
+Total weight caried: 0
+Current load:        Light
+   Encumbrance
+Light:  233   
+Medium: 466   
+Heavy:  700
+</text>
+  </nodehandler>
+  <nodehandler class="tabber_handler" icon="gear" module="containers" name="Magic">
+
+                                          
+                                          
+  </nodehandler>
+  <nodehandler class="form_handler" icon="compass" module="forms" name="Description">
+    <form height="600" width="400"/>
+    <nodehandler class="textctrl_handler" icon="note" module="forms" name="Summary">
+      <text multiline="1" send_button="1">Height: 0&#39; 0&quot; Weight: 0 lbs. Gender: Male Dominant Hand: Right
+Eyes:  Hair: , Skin: 
+Quirks: ,  Speech style:  Quotable: </text>
+    </nodehandler>
+    <nodehandler class="textctrl_handler" icon="note" module="forms" name="Full Description">
+      <text multiline="1" send_button="1">DESCRIPTION,&lt;BR&gt;</text>
+    </nodehandler>
+  </nodehandler>
+  <nodehandler class="form_handler" icon="compass" module="forms" name="Misc.">
+    <form height="600" width="400"/>
+    <nodehandler class="textctrl_handler" icon="note" module="forms" name="Background">
+      <text multiline="1" send_button="1"></text>
+    </nodehandler>
+    <nodehandler class="textctrl_handler" icon="note" module="forms" name="Notes">
+      <text multiline="1" send_button="0"></text>
+    </nodehandler>
+    <nodehandler class="textctrl_handler" icon="note" module="forms" name="Languages">
+      <text multiline="0" send_button="0">Draconic</text>
+    </nodehandler>
+    <nodehandler class="textctrl_handler" icon="note" module="forms" name="Alignment">
+      <text multiline="0" send_button="0">Neutral</text>
+    </nodehandler>
+  </nodehandler>
+</nodehandler>
